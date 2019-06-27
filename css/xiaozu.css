@@ -1,6 +1,6 @@
 /* 重置样式 */
 html{
-    font: size 14px;
+    font:size 14px;
     color:#333333;
 }
 body{
@@ -19,16 +19,40 @@ a{
 }
 div{
     color:#d5d5d5;
-    font-size:5px;
+    font-size:10px;
 }
 
-/* .wrapper
+.wrapper{
     width:1200px;
     margin:0 auto;
-    background-color:#cccccc;
-} */
+    background-color:#545652;
+}
+    
 
 /* 快捷导航 */
-.fast_nav{
-
+.fast_nav> .wrapper::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.fast_nav .nav{
+    float:left;
+}
+.fast_nav .nav >ul{
+    float:left;
+}
+.fast_nav .nav >ul >li{
+    float:left;
+    width:50px;
+    text-align:center;
+    line-height:2em;
+}
+.fast_nav .other >ul >li{
+    float:right;
+    width:50px;
+    text-align:center;
+    line-height:2em;
+}
+.fast_nav .other{
+    float:right;
 }

@@ -1,0 +1,113 @@
+/*  重置样式*/
+html{
+    font-size: 14px;
+}
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+ul,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+.inner{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 100px;
+    position: relative;
+}
+/*顶部信息*/
+.app_nav{
+
+    
+}
+.app_nav > .inner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.app_nav .logo{
+    margin: 28px 0;
+    line-height: 60px;
+    float: left;
+}
+.app_nav>.app_nav .logo::after{
+    box-sizing: inherit;
+}
+.app_nav .feedback{
+    position: absolute;
+    left: 140px;
+    top: 31px;
+    z-index: 1000;
+    font-size: 12px;
+    margin-top: 10px;
+    color:rgba(145, 140, 140, 0.801)
+}
+
+.app_nav .nav> ul> li{
+    float: left;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 60px;
+}
+.app_nav .other{
+    float: right;
+    color:rgba(145, 140, 140, 0.801);
+    font-size: 15px;
+    line-height: 60px;
+    margin-top: 31px;
+}
+.app_nav .other>span:nth-child(1){
+    border-right: 1px solid  #333333;
+    padding: 0 10px;
+
+}
+/* 播放器 */
+.player_wrapper{
+    background-color: rgba(250, 250, 250, 0.93);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.left{
+    transform: scale(1);
+    opacity: 1;
+    top: 50%;
+    margin-top: -70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -475px;
+    width: 200px;
+    height: 200px;  
+}
+.middle{
+    width: 430px;
+    top: 50%;
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -215px;
+    bottom: 156px;
+    height: 0px;
+    line-height: 0px;
+}
+.MHz{
+    font-size: 16px;
+    font-weight: 400;
+    height: 22px;
+    line-height: 22px;
+    color: rgb(47, 152, 66);
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    width: 430px;
+    opacity: 1
+}
+
+

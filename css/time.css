@@ -1,0 +1,34 @@
+/*重置样式*/
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+/*快捷导航*/
+.fast_nav{
+    font-size: 12px;
+    line-height: 0.5em;
+    background-color: #545652;
+}
+.fast_nav>.wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fast_nav .nav{
+    float: left;
+}
+.fast_nav .nav>ul>li{
+    float: left;
+    width: 50px;
+    text-align: center;
+}
+.fast_nav .other{
+    float: right;
+    padding-top :10px; 
+    margin-right: 20px;
+}
+.fast_nav .other>span:nth-child(1){
+    margin-right: 15px;
+}

@@ -1,6 +1,7 @@
 /*重置样式*/
 html{
     color: #d5d5d5;
+    background: #f6f6f6;
 }
 body{
     margin: 0;
@@ -11,6 +12,10 @@ ul,h1,h2,h3{
 }
 ul{
     list-style: none;
+}
+.wrapper{
+    width：1263px;
+    margin:0 auto;
 }
 /*快捷导航*/
 .fast_nav{
@@ -44,5 +49,26 @@ ul{
     margin-top: 3px;
 }
 .fast_nav .other>span:nth-child(1){
-    margin-right: 15px;
+    margin-right: 20px;
 }
+/* 内容 */
+.content{
+    width:650px;
+    background-color: #ffffff;
+    margin:0 auto;
+}
+.content::after{
+    content: "";                                                       
+    display: block;
+    clear: both;
+}
+/*(650px-4*10px)/3=203px*/
+.content>li{
+    float:left;
+    height:262px;
+    width: 203px;
+    margin-left:10px;
+    margin-top: 20px;
+    background-color: teal;
+}
+.content 

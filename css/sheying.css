@@ -1,5 +1,120 @@
-.header.nav{
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: aqua;
+/* 重置样式 */
+
+html {
+
+  font-size: 14px;
+
+  color: #333333;
+
+}
+
+body {
+
+  margin: 0;
+
+}
+
+ul,h1,h2,h3 {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+ul {
+
+  list-style: none;
+
+}
+
+a {
+
+  color:#333333;
+
+  text-decoration: none;
+
+}
+
+.wrapper {
+
+  width: 1200px;
+
+  margin: 0 auto;
+}
+/* 顶部导航 */
+
+.fast_nav.nav > ul > li:hover{
+
+  color:#279f5a;
+  
+  } 
+
+.fast_nav  {
+
+  height: 80px;
+
+  background-color:#5a92d1;
+
+  color: #ededed;
+
+font-size: 12px;
+
+border-bottom: 4px solid #ededed;
+}
+.fast_nav > .wrapper::after {
+
+display: block;
+
+content: "";
+
+clear: both;
+
+}
+
+.fast_nav .logo {
+
+  line-height: 60px;
+
+  float: left;
+
+  font-size: 26px;
+
+  color: #279f5a;
+
+}
+
+/*将豆瓣向左浮动且添加颜色*/
+
+.fast_nav .nav {
+
+  float: left;
+
+  margin-left: 150px;
+
+}
+
+/*将nav内容居中*/
+
+.fast_nav .nav {
+
+  margin-right: 60px;
+
+font-size: 15px;
+
+line-height: 25em;
+
+}
+
+.fast_nav .nav> li {
+
+  float: left;
+
+  width: 80px;
+
+  text-align: center;
+
+  line-height: 70px;
+  
+  cursor: pointer;
 }

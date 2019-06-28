@@ -1,0 +1,135 @@
+/* 重置样式 */
+html {
+  font-size: 14px;
+  color: #333333;
+}
+body {
+  margin: 0;
+}
+ul,h1,h2,h3 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  color:#333333;
+  text-decoration: none;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 快捷导航 */
+.fast_nav {
+    height: 33px;
+    background-color:#545652;
+    color: #ededed;
+  font-size: 12px;
+  border-bottom: 4px solid #ededed;
+}
+/*加了一个灰色框*/
+.fast_nav .nav {
+  float: left;
+}
+.fast_nav .nav >ul > li{
+  float: left;
+  width: 50px;
+  text-align: center;
+  line-height: 3em;
+  cursor: pointer;
+}
+/*将nav中的东西居中*/
+.fast_nav .nav >ul > li:hover {
+  color:blanchedalmond;
+}
+.fast_nav .other {
+  margin-right: 10px;
+float: right;
+font-size: 12px;
+line-height: 3em;
+cursor: pointer;
+}
+.fast_nav.other >span:hover{
+  color:blanchedalmond;
+}
+/*将other内容居中*/
+.fast_nav .other>span:nth-child(1) {
+  padding: 0 25px 20px 0;
+  border-right: 0 solid #ededed;
+}
+/*将下载客户端和提醒分开*/
+
+/* 顶部导航 */
+.top_nav  {
+  height: 80px;
+  background-color:#edf4ed;
+  color: #ededed;
+font-size: 12px;
+border-bottom: 4px solid #ededed;
+}
+.top_nav  {
+
+}
+.top_nav > .wrapper::after {
+display: block;
+content: "";
+clear: both;
+}
+.top_nav .logo {
+  line-height: 60px;
+  float: left;
+  font-size: 26px;
+  color: #279f5a;
+}
+/*将豆瓣向左浮动且添加颜色*/
+.top_nav .nav {
+  float: left;
+  margin-left: 150px;
+}
+/*将nav内容居中*/
+.top_nav .nav {
+  margin-right: 60px;
+font-size: 15px;
+line-height: 25em;
+}
+.top_nav .nav> li {
+  float: left;
+  width: 80px;
+  text-align: center;
+  line-height: 70px;
+  color: #007722;
+  cursor: pointer;
+}
+.top_nav.nav>ul>li:hover{
+  color:#333333;
+}
+/*将内容浮动、添加颜色*/
+.tip_nav {
+  margin-right: 60px;
+float: left;
+font-size: 15px;
+line-height: 5em;
+cursor: pointer;
+}
+.m_nav{
+  height: 33px;
+  background-color:#f2f7f6;
+  color: #ededed;
+font-size: 12px;
+border-bottom: 4px solid #ededed;
+
+}
+.m_content{
+  margin-right: 60px;
+float: right;
+font-size: 15px;
+line-height: 5em;
+cursor: pointer;
+color: #3377aa;
+}
+.photo{
+  float: right;
+  font-size: 15px;
+}

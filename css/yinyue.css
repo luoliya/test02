@@ -83,7 +83,8 @@ color:#d5d5d5;
 }
 .top_nav .nav> li {
   float: left;
-  width: 90px;
+  width: 100px;
+  font-size: 13px;
   text-align: center;
   line-height: 50px;
 }
@@ -122,6 +123,8 @@ color:#d5d5d5;
       content: "";
       clear:both;
     }
+   
+
 .artists .aaaaa{
   margin-bottom: 40px;
   overflow:hidden;
@@ -154,6 +157,7 @@ ul {
 }
 .artists {
   width: 800px;
+  margin-right: 10px;
   background-color: #ededed;
 }
 .artists::after {
@@ -165,7 +169,7 @@ ul {
 .artists > li {
   float: left;
   height: 200px;
-  width: 200px;
+  width: 180px;
   margin-right: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -174,3 +178,48 @@ ul {
 .artists > li:nth-child(3n) {
   margin-right: 0;
 }
+
+.bangdan{
+  width: 800px;
+  margin-right: 10px;
+  background-color: #ededed;
+}
+.bangdan::after {
+  content: "";
+  display:block;
+  clear: both;
+}
+.bangdan.bbbbb{
+  margin-bottom: 40px;
+  overflow:hidden;
+  line-height: 700px;
+  margin:  0 auto;
+   border-bottom:2px solid #02A682;
+}
+    
+.xindie.bbbbb > span  {
+  display: inline-block;
+font-size: 17px;
+color: #222;
+float:left;
+line-height: 30px;
+margin: 0px;
+cursor: pointer;
+}
+.xindie.bbbbb >span:nth-child （1）{
+  font-size: 14px;
+  float:left;
+    line-height: 100px;
+    color: #999;
+}
+.bangdan > li {
+  float: left;
+  height: 200px;
+  width: 180px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+ 
+}
+.bangdan > li:nth-child(3n) {
+  margin-right: 0;

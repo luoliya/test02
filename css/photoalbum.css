@@ -212,3 +212,10 @@ margin-top: 5px;
 .guige{
   color: #44883e;
   font-size: 25px;}
+  .canshu{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 70px;
+  }

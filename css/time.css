@@ -69,6 +69,7 @@ ul{
     width: 203px;
     margin-left:10px;
     margin-top: 20px;
+    background-color: blue;
 }
 .content >li:nth-child(1){
     width: 600px;
@@ -81,4 +82,44 @@ ul{
     width: 600px;
     height:20px;
     color: black;
+}
+.content >li:nth-child(6){
+    width:650px;
+    margin-left: 0;
+    height:270px;
+    border-top:18px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.content >li:nth-child(7){
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 600px;
+    height:20px;
+    color: black;
+}
+.content >li:nth-child(8){
+    width:650px;
+    margin-left: 0;
+    height:270px;
+}
+.content >li:nth-child(9){
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 400px;
+    height:20px;
+    color: black;
+}
+.content >li:nth-child(10){
+    background-color: #ffffff;
+    float: right;
+    width: 100px;
+    height :20px;
+    text-align: right;
+    font-size: 13px;
+    margin-right: 20px;
+    color: black;
+}
+.content >li:nth-child(14){
+    height: 200px;
+    margin:25px;
 }

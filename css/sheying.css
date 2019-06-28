@@ -44,6 +44,12 @@ a {
 }
 /* 顶部导航 */
 
+.fast_nav.nav > ul > li:hover{
+
+  color:#279f5a;
+  
+  } 
+
 .fast_nav  {
 
   height: 80px;
@@ -111,10 +117,4 @@ line-height: 25em;
   line-height: 70px;
   
   cursor: pointer;
-
 }
-.fast_nav.nav>ul>li:hover{
-
-  color:#279f5a;
-  
-  } 

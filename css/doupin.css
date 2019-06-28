@@ -35,6 +35,7 @@ html {
   }
   .fast_nav .nav {
     float: left;
+    cursor: pointer;
   }
   .fast_nav .nav >ul > li{
     float: left;
@@ -45,11 +46,13 @@ html {
   }
   .fast_nav .nav >ul > li:hover {
     color:white ;
+    cursor: pointer;
   }
   
   .fast_nav .other {
     float: right;
     line-height: 3em;
+    cursor: pointer;
   }
   .fast_nav .other>span:nth-child(1) {
     padding: 0 10px;
@@ -68,10 +71,12 @@ html {
   float: left;
   font-size: 26px;
   color: #279f5a;
+  cursor: pointer;
 }
 .top_nav .nav {
   float: right;
   margin-left: 150px;
+  cursor: pointer;
 }
 
 /*框框*/
@@ -84,6 +89,7 @@ html {
 content: "";
 display:block;
 clear:both;
+cursor: pointer;
 }
 /*(1024px-2*20px)/3=328 */
 .products > li {
@@ -92,5 +98,14 @@ clear:both;
   width: 350px;
   margin-right: 80px;
   margin-bottom: 80px;
-  background-color: rgb(224, 222, 220);
+  background-color: rgb(226, 217, 214);
+  cursor: pointer;
+}
+
+/*底部官方小组*/
+.xiaozu {
+  width: 600px;
+  height: 10px;
+  background-color: green;
+  margin:0 auto;
 }

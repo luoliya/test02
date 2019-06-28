@@ -1,0 +1,58 @@
+/* 重置样式 */
+html{
+    font:size 14px;
+    color:#333333;
+}
+body{
+    margin:0;
+}
+ul,h1,h2,h3{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style:none;
+}
+a{
+    color:#333333;
+    text-decoration: none;
+}
+div{
+    color:#d5d5d5;
+    font-size:10px;
+}
+
+.wrapper{
+    width:1200px;
+    margin:0 auto;
+    background-color:#545652;
+}
+    
+
+/* 快捷导航 */
+.fast_nav> .wrapper::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.fast_nav .nav{
+    float:left;
+}
+.fast_nav .nav >ul{
+    float:left;
+}
+.fast_nav .nav >ul >li{
+    float:left;
+    width:50px;
+    text-align:center;
+    line-height:2em;
+}
+.fast_nav .other >ul >li{
+    float:right;
+    width:50px;
+    text-align:center;
+    line-height:2em;
+}
+.fast_nav .other{
+    float:right;
+}

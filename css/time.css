@@ -1,0 +1,48 @@
+/*重置样式*/
+html{
+    color: #d5d5d5;
+}
+body{
+    margin: 0;
+}
+ul,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+/*快捷导航*/
+.fast_nav{
+    font-size: 12px;
+    line-height: 2em;
+    background-color: #545652;
+}
+.wrapper ul>li:hover{
+    color: white;
+}
+.wrapper span:hover{
+    color: white;
+}
+.fast_nav>.wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fast_nav .nav{
+    float: left;
+}
+.fast_nav .nav>ul>li{
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+.fast_nav .other{
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+.fast_nav .other>span:nth-child(1){
+    margin-right: 15px;
+}

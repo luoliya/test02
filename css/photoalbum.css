@@ -64,7 +64,6 @@ html {
   left: 0;
   right: 0;
   z-index: 2;
-  padding: 0;
   height: 127px;
   background: #fff;
   padding: 25px 0;
@@ -141,13 +140,75 @@ margin: 0 auto;
 display: block;
 margin: 0 auto;
 }
-.footer{
+.last{
 width: 100%;
-height: 130px;
+height: 110px;
 background-color: #f3f2f2;
 border-top: 1px solid #f3f2f2;
 padding-top: 50px;
 padding-bottom: 45px;
 margin-top: 60px;
 color: #ababac;
+left: 0;
 }
+.last-wapper{
+height: 100px;
+width: 1100px;
+margin-left: auto;
+margin-right: auto;
+color: #ababac;
+list-style: none;
+text-align: center;
+}
+.last-left{
+  float: left;
+  font-size: 25px;
+  font: inherit;
+  text-align: center;
+}
+.left-botton{
+  color: #ababac;
+  float: left;
+  font-size: 13px;
+}
+.last-info{
+float: left;
+margin: 0;
+display: block;
+text-align: left;
+color: #ababac;
+}
+.page{
+  color: #ababac;
+}
+.last-logo{
+  margin: 0;
+  display: block;
+  line-height: 1em;
+  text-align: left;
+}
+.last-right{
+  float: right;
+  margin: 0;
+  color: #ababac;
+  text-align: center;
+}
+.last-nav
+{
+  float: right;
+  font-size: 16px;
+margin-left: 50px;
+margin-top: 5px;
+}
+.last-contacts{
+  margin-top: 20px;
+  float:right;
+  margin-right: 20px;
+}
+.kong{
+  text-align: center;
+  margin-top: 50px;
+}
+.guige{
+  color: #44883e;
+  font-size: 25px;}

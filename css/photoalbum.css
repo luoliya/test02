@@ -88,10 +88,8 @@ font: inherit;
   border-right: 1px solid black;
 }
 .header-title{
-text-align: left;
-margin-top: 50px;
-margin-left: auto;
-margin-right: auto;
+float: left;
+margin-top: 18px;
 }
 .header-right{
 float: right;
@@ -124,4 +122,10 @@ background: #dd1944;
 text-align: center;
 border-radius: 2px;
 vertical-align: 10px;
+}
+.picture{
+position: relative;
+z-index: 1;
+background: #f9f6f2 50% no-repeat;
+margin: 0 auto;
 }

@@ -80,7 +80,9 @@ a{
   font-size: 26px;
   color: #1f8f2f;
   margin-left:50px;
+  cursor:pointer;
 }
+
 .top_nav .logo >ul{
     float:left;
     /* margin-left:50px; */
@@ -136,29 +138,58 @@ a{
   text-align: center;
   line-height: 80px;
   color:#007722;
+  cursor:pointer;
 }
+.top_nav .nav > li:hover{
+    color:#cccccc;
+}
+
 /* 简介 */
 .introduction_nav {
-    background-color:#cccccc;
+    margin-left:150px;;
+    width: 230px;
 }
-/* .introduction_nav > .wrapper::after {
+.introduction_nav > .wrapper::after {
   display: block;
   content: "";
   clear: both;
 }
-.introduction_nav .logo {
-  line-height: 60px;
-  float: left;
+.introduction_nav .logo >ul >li{
+    width:200px;
+}
+.introduction_nav .logo >ul >li:nth-child(1){
+  margin-top: 50px;
+  /* float: left; */
   font-size: 26px;
-  color: #279f5a;
+  color: #494949;
 }
-/* .introduction_nav .nav {
-  float: left;
-  margin-left: 150px;
+.introduction_nav .logo >ul >li:nth-child(3){
+    cursor: pointer;
+    width:20px;
+    /* float:left; */
 }
-.introduction_nav .logo> li {
-  float: left;
-  width: 60px;
-  text-align: center;
-  line-height: 60px;
-} */
+.introduction_nav .logo >ul >li:nth-child(4){
+    float:left;
+    color:#bbbbbb;
+    cursor:pointer;
+}
+.introduction_nav .logo >ul >li:nth-child(2){
+    float:left;
+} 
+.introduction_nav .logo >ul{
+    float:left;
+}
+
+.wenzi_nav {
+    line-height:100px;
+    float:left;
+    background-color:red；
+}
+.wenzi_nav .wenzi{
+    float:left;
+}
+.wenzi_nav > .wrapper::after {
+    display: block;
+    content: "";
+    clear: both;
+}

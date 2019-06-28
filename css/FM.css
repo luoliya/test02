@@ -22,8 +22,7 @@ ul,h1,h2,h3{
 }
 /*顶部信息*/
 .app_nav{
-
-    
+    color: rgba(250, 250, 250, 0.93);
 }
 .app_nav > .inner::after{
     content: "";
@@ -108,6 +107,8 @@ ul,h1,h2,h3{
     position: absolute;
     width: 430px;
     opacity: 1
+}
+.media{
 }
 
 

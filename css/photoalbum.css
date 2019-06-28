@@ -123,9 +123,21 @@ text-align: center;
 border-radius: 2px;
 vertical-align: 10px;
 }
-.picture{
+/*图片板块*/
+.picture1{
 position: relative;
 z-index: 1;
 background: #f9f6f2 50% no-repeat;
+margin: 0 auto;
+}
+.product-image-wrap{
+position: relative;
+z-index: 1;
+min-height: 100px;
+margin: 0 auto;
+}
+.pucture2{
+  max-width: 100%;
+display: block;
 margin: 0 auto;
 }

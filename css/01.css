@@ -118,10 +118,9 @@ line-height: 3em;
 
 /* 顶部导航 */
 
-
 .top_nav  {
 
-  height: 60px;
+  height: 80px;
 
   background-color:#edf4ed;
 
@@ -135,7 +134,7 @@ border-bottom: 4px solid #ededed;
 
 .top_nav  {
 
-background-color: #ededed;
+
 
 }
 
@@ -162,21 +161,12 @@ clear: both;
 }
 
 /*将豆瓣向左浮动且添加颜色*/
-.photo{
-  
-  float:right;
-
-  margin-right: 0;
-
-
-}
-
 
 .top_nav .nav {
 
   float: left;
 
-  margin-left: 30px;
+  margin-left: 150px;
 
 }
 
@@ -202,22 +192,16 @@ line-height: 25em;
 
   line-height: 70px;
 
-  color:green;
+  color: #007722;
 
 }
 
 /*将内容浮动、添加颜色*/
 
-.botoom{
-  
-}
-.botoom.bot>li{
-  width: 80px;
+.photo{
 
-  text-align: center;
+  float:right;
 
-  line-height: 70px;
-
-  color: green;
+  margin-left: 150px;
 
 }

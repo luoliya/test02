@@ -20,8 +20,8 @@ html {
   /*第一板块*/
   /*导航键*/
   .fast_nav {
-      height: 33px;
-      color: #d5d5d5;
+    height: 33px;
+    color: #d5d5d5;
     background-color: #545652;
     font-size: 12px;
     border: bottom 4px  solid #ededed;
@@ -37,9 +37,8 @@ html {
     cursor: pointer;
   }
   .fast_nav .nav >ul > li:hover {
-    color:#d5d5d5;
+    color:#fdfcfc;
   }
-  
   .fast_nav .other {
     margin-right: 10px;
     float: right;
@@ -50,7 +49,7 @@ html {
   padding: 0 25px  20px 0;
   border-right: 0 solid #ededed;
 }
-  .fast_nav .other > span :hover {
+  .fast_nav .other >span:hover {
     color:#d5d5d5;
   }
   /*第二板块*/
@@ -108,7 +107,7 @@ margin-right: 10px;
   text-align: right;
 }
 .header-button{
-  color: #fff;
+color: #fff;
 display: inline-block;
 margin-right: 0;
 margin-top: 0;
@@ -121,6 +120,9 @@ background: #dd1944;
 text-align: center;
 border-radius: 2px;
 vertical-align: 10px;
+}
+.header-button:hover{
+color:#ada8a8;
 }
 /*图片板块*/
 .picture1{

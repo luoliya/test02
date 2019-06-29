@@ -57,7 +57,9 @@ ul,h1,h2,h3{
     z-index: 1000;
     font-size: 12px;
     margin-top: 10px;
-    color:rgba(145, 140, 140, 0.801)
+    color:rgba(145, 140, 140, 0.801);
+    cursor: pointer;
+    
 }
 .app_nav .nav> ul> li{
     float: left;
@@ -65,6 +67,7 @@ ul,h1,h2,h3{
     text-align: center;
     font-size: 15px;
     line-height: 60px;
+    cursor: pointer;
 }
 .app_nav .other{
     float: right;
@@ -72,6 +75,7 @@ ul,h1,h2,h3{
     font-size: 15px;
     line-height: 60px;
     margin-top: 31px;
+    cursor: pointer;
 }
 .app_nav .other>span:nth-child(1){
     border-right: 1px solid  #333333;
@@ -148,6 +152,11 @@ ul,h1,h2,h3{
     color: rgb(74, 74, 74);  
     opacity: 1;  
 }
+.up{
+    position: absolute;
+    top: 232px;
+    z-index: 1000;
+}
 .buttom{
     position: absolute;
     bottom: 10px;
@@ -160,7 +169,7 @@ ul,h1,h2,h3{
     transform: translate3d()
 
 }
-
+/* 探索功能*/
 .section-switcher > .section-header {
     padding-top: 38px;
     padding-bottom: 39px;
@@ -183,6 +192,38 @@ ul,h1,h2,h3{
     width: auto;
     display: inline-block;
 }
+.channel{
+    list-style: none;
+    padding-left: 0px;
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    cursor: default;
+    font-weight: 400;
+    
+}
+.pindao{
+    float: left;
+    margin-right:10px;
+}
+.wenzi{
+    float:right;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 22px;
+
+}
+
+.channel-word{
+    text-decoration: none;
+    font-size: 14px;
+    color: #7c7979;
+    cursor:pointer;
+}
+.channel .channel-word:hover{
+    color: #4a4a4a;
+}
+
 .specialchannel{
     text-rendering: optimizeLegibility;
 }
@@ -196,6 +237,9 @@ ul,h1,h2,h3{
     cursor: default;
     font-weight: 400;
     
+}
+.section-switcher .specialchannel>go:hover{
+    color: rgb(47, 182, 137);
 }
 .p1{
     float: left;
@@ -223,6 +267,7 @@ ul,h1,h2,h3{
     top: 0;
     text-decoration: none;
 }
+
 .doubanjx{
     float: right;
     margin-right:30px;
@@ -247,7 +292,10 @@ ul,h1,h2,h3{
     height: 30px;
     margin-top: 30px;
     padding: 0 20px;
-    cursor:pointer
+    cursor:pointer;
+}
+.channels-block .button-more:hover{
+    color: #7c7979;
 }
 /**艺术家块*/
 .channels-block {
@@ -276,17 +324,19 @@ ul,h1,h2,h3{
     float: left;
     height: 248px;
     text-align: center;
-    cursor: pointer;
+
 }
 
 .channels-block.text-channels ul {
     display: block;
     text-align: left;
-
+    cursor: pointer;
 }
 .cover
 {
     margin-bottom: 20px;
+    cursor: pointer;
+
 }
 .channels-block .channel .link {
     display: inline-block;
@@ -299,10 +349,14 @@ ul,h1,h2,h3{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.channels-block .channel .link:hover{
+    border-bottom: 1px solid #4a4a4a;
+}
 .channels-block .channel .subtitle{
     font-size: 12px;
     color: #acacac;
     font-weight: 500;
+    cursor:default;
 }
 .channels-block.text-channels .channel-text {
     text-align: center;

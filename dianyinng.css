@@ -60,8 +60,6 @@ html {
 
 
   /* 顶部导航 */
-  .top_nav {
-  }
   .top_nav > .wrapper::after {
     display: block;
     content: "";
@@ -136,7 +134,4 @@ html {
   width: 100px;
   color: #37a;
   line-height: 10px;
-}
-.tibu{
-
 }

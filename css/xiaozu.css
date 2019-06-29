@@ -431,35 +431,38 @@ a:hover{
 
 /* 底部导航 */
 .bottom_nav{
-    font-size:12px;
+    font-size:13px;
     color:#3399cf;
-    border-top:1px dashed #dddddd;
+    border-top:1px dashed #cccccc;
+    float:left;
+    width:1135px;
 }
+ 
 .bottom> .wrapper::after{
     content:"";
     display:block;
     clear:both;
 }
 .bottom_nav .bottom{
-    float:left;
+    float:right;
+    margin-right:150px;
 }
 .bottom_nav .bottom >ul >li{
-    float:left;
-    width:50px;
+    float:right;
+    width:70px;
     text-align:center;
-    line-height:2.5em;
+    line-height:2em;
     cursor:pointer;
 }
 .bottom_nav .bottom >ul > li:hover{
     color:white;
+    background-color:#3399cf;
+    line-height:1.5em;
 }
 .bottom_nav .guanyu{
     float:left;
-    line-height:2.5em;
-    margin-right:30px;
-    color:#e8e8e8;
-    width:200px;
-}
-.bottom_nav .guanyu>ul{
-    width:300px;
+    line-height:2em;
+    /* margin-right:30px; */
+    color:#cccccc;
+    width:370px;
 }

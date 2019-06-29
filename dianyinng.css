@@ -110,14 +110,51 @@ html {
  }
  .tupian1{
   margin: 0 auto;
+  height: 450px;
   width: 900px;
   line-height: 400px;
  }
 
  /* 体部 */
-.tibu {
+ .tibu1{
+  box-align:center;
+height: 100px;
+line-height: 100px;
+ }
+ .tibu {
+  width: 1000px;
   float: left;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-left:200px;
+}
+.tibu .tibu >ul > li{
+  /* float: left; */
+  width: 20px;
+  text-align: center;
+  line-height: 1em;
+  cursor: pointer;
+}
+.tibu .tibu >ul > li:hover {
+  color:blue;
+}
+.tibu .tibu> li {
+  float: left;
+  width: 100px;
+  color: #37a;
+  line-height: 20px;
+}
+/* tupian2 */
+.tibu1{
+  box-align:center;
+height: 100px;
+ }
+ .tibu {
+  width: 1000px;
+  float: left;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left:100px;
 }
 .tibu .tibu >ul > li{
   float: left;

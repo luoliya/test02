@@ -1,0 +1,86 @@
+html {
+    font-size: 14px;
+    color: #333333;
+  }
+  body {
+    margin: 0;
+  }
+  ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  /*快捷导航*/
+.fast_nav {
+    height: 33px;
+    color: #d5d5d5;
+    background-color:#545652;
+  font-size: 12px;
+  border-bottom: 4px solid #ededed;
+}
+
+.fast_nav .nav {
+  float: left;
+}
+.fast_nav .nav >ul > li{
+  float: left;
+  width: 50px;
+  text-align: center;
+  line-height: 3em;
+  cursor: pointer;
+}
+.fast_nav .nav >ul > li:hover {
+  color:green;
+}
+.fast_nav .other > span :hover {
+    color: green;
+  }
+.fast_nav .other {
+    margin-right: 10px;
+  float: right;
+  font-size: 12px;
+  line-height: 3em;
+}
+.fast_nav .other>span:nth-child(n){
+  padding: 0 25px 20px 0;
+  border-right: 0 solid #ededed;
+  cursor: pointer;
+}
+/*图片*/
+.picture1{
+    text-align: center;
+}
+.picture2{
+    text-align: center;
+    cursor: pointer;
+}
+.content1{
+    margin: 0 auto;
+    width: 600px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content2{
+    margin: 0 auto;
+    width: 600px;
+    cursor: pointer;
+}
+.content3{
+    margin: 0 auto;
+    width: 600px;
+    cursor: pointer;
+}
+.picture3{
+    margin: 0 auto;
+    width: 600px;
+    cursor: pointer;
+}
+
+
+

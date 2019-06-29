@@ -1,0 +1,137 @@
+html {
+    font-size: 14px;
+    color: #333333;
+  }
+  body {
+    margin: 0;
+  }
+  ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /* 快捷导航 */
+  .fast_nav {
+      height: 33px;
+      color: #d5d5d5;
+      background-color:#545652;
+    font-size: 12px;
+    border-bottom: 4px solid #ededed;
+  }
+ 
+  .fast_nav .nav {
+    float: left;
+  }
+  .fast_nav .nav >ul > li{
+    float: left;
+    width: 50px;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color:blue;
+  }
+  
+  .fast_nav .other {
+      margin-right: 10px;
+    float: right;
+    font-size: 12px;
+    line-height: 3em;
+  }
+  .fast_nav .other>span:nth-child(1) {
+    padding: 0 25px 20px 0;
+    border-right: 0 solid #ededed;
+  }
+  .fast_nav .other > span :hover {
+    color:#d5d5d5;
+  }
+
+
+  /* 顶部导航 */
+  .top_nav > .wrapper::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  .top_nav .logo {
+    line-height: 100px;
+    float: left;
+    font-size: 50px;
+    color: #37a;
+  }
+  .top_nav .nav {
+    float: left;
+    margin: 0 auto;
+  }
+  .top_nav .nav >ul > li{
+    float: left;
+    width: 50px;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+  }
+  .top_nav .nav >ul > li:hover {
+    color:blue;
+  }
+  .top_nav .nav> li {
+    float: left;
+    width: 100px;
+    color: #37a;
+    line-height: 60px;
+  }
+  .top_nav .phone {
+    line-height: 60px;
+    float: right;
+  }
+  .wrapper .ab>span{
+      color: #37a;
+      margin-left: 20px;
+  }
+  .wrapper .ab>span:nth-child(1){
+      color: black;
+      line-height: 100px;
+      font-size: 20px;
+  }
+ .products{
+  margin: 0 auto;
+  width: 900px;
+ }
+ .tupian1{
+  margin: 0 auto;
+  width: 900px;
+  line-height: 400px;
+ }
+
+ /* 体部 */
+.tibu {
+  float: left;
+  margin: 0 auto;
+}
+.tibu .tibu >ul > li{
+  float: left;
+  width: 20px;
+  text-align: center;
+  line-height: 1em;
+  cursor: pointer;
+}
+.tibu .tibu >ul > li:hover {
+  color:blue;
+}
+.tibu .tibu> li {
+  float: left;
+  width: 100px;
+  color: #37a;
+  line-height: 20px;
+}

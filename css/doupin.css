@@ -103,10 +103,11 @@ cursor: pointer;
   cursor: pointer;
 }
 .group{
-line-height: 90px;
-width: 1500px;
+line-height: 100px;
+width: 1859px;
 cursor: pointer;
 text-align: center;
 background-color: antiquewhite;
 margin:0 auto;
+cursor: pointer;
 }

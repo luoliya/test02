@@ -75,6 +75,7 @@ color:#d5d5d5;
     float: left;
     font-size: 26px;
     color:#f2901c;
+    cursor: pointer;
   }
 
 .top_nav .nav {
@@ -112,10 +113,12 @@ color:#d5d5d5;
 .header > div.left {
       float: left;
       width: 800px;
+      cursor: pointer;
     }
   .header > div.right {
       float:right;
       width: 350px;
+      cursor: pointer;
   }
     
 .header>.wrapper::after{
@@ -125,25 +128,25 @@ color:#d5d5d5;
     }
    
 
-.artists .aaaaa{
+.article .aaaaa{
   margin-bottom: 40px;
   overflow:hidden;
-  line-height: 700px;
+  line-height: 100px;
   margin:  0 auto;
    border-bottom:2px solid #02A682;
+   font-size: 30px; 
+   cursor: pointer;
 }
     
-.artists.aaaaa > span  {
+.article.aaaaa > span  {
   display: inline-block;
-font-size: 17px;
 color: #222;
 float:left;
 line-height: 30px;
 margin: 0px;
-cursor: pointer;
 }
-.artists.aaaaa >span:nth-child （1）{
-  font-size: 14px;
+.article.aaaaa >span:nth-child （1）{
+  font-size: 30px;
   float:left;
     line-height: 100px;
     color: #999;
@@ -173,23 +176,25 @@ ul {
   margin-right: 10px;
   margin-bottom: 10px;
   text-align: center;
+  cursor: pointer;
  
 }
 .artists > li:nth-child(3n) {
   margin-right: 0;
 }
 
-.bangdan{
+.xindie{
   width: 800px;
   margin-right: 10px;
   background-color: #ededed;
+ 
 }
-.bangdan::after {
+.xindie::after {
   content: "";
   display:block;
   clear: both;
 }
-.bangdan.bbbbb{
+.xindie.bbbbb{
   margin-bottom: 40px;
   overflow:hidden;
   line-height: 700px;
@@ -199,12 +204,12 @@ ul {
     
 .xindie.bbbbb > span  {
   display: inline-block;
-font-size: 17px;
+font-size: 30px;
 color: #222;
 float:left;
-line-height: 30px;
+line-height: 50px;
 margin: 0px;
-cursor: pointer;
+
 }
 .xindie.bbbbb >span:nth-child （1）{
   font-size: 14px;
@@ -219,7 +224,9 @@ cursor: pointer;
   margin-right: 10px;
   margin-bottom: 10px;
   text-align: center;
+  cursor: pointer;
  
 }
 .bangdan > li:nth-child(3n) {
   margin-right: 0;
+}

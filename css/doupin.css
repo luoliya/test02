@@ -1,0 +1,113 @@
+/* 重置样式 */
+html {
+    font-size: 20px;
+    color: rgb(224, 214, 214);
+  }
+  body {
+    margin: 0;
+  }
+  ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /* 快捷导航 */
+  .fast_nav {
+    font-size: 17px;
+    border-bottom: 1px solid #f5eeee;
+    background-color: black;
+  }
+  .fast_nav> .wrapper::after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  .fast_nav .nav {
+    float: left;
+    cursor: pointer;
+  }
+  .fast_nav .nav >ul > li{
+    float: left;
+    width: 50px;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color:white ;
+    cursor: pointer;
+  }
+  
+  .fast_nav .other {
+    float: right;
+    line-height: 3em;
+    cursor: pointer;
+  }
+  .fast_nav .other>span:nth-child(1) {
+    padding: 0 10px;
+    border-right: 1px solid black;
+  }
+  /* 顶部导航 */
+.top_nav {
+}
+.top_nav > .wrapper::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.top_nav .logo {
+  line-height: 30px;
+  float: left;
+  font-size: 26px;
+  color: #279f5a;
+  cursor: pointer;
+}
+.top_nav .nav {
+  float: right;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+/*框框*/
+.products{
+  height: 4000px;
+  width: 1300px;
+  background-color: rgb(241, 240, 238);
+  margin:0 auto;
+}
+.products ::after {
+content: "";
+display:block;
+clear:both;
+cursor: pointer;
+}
+/*(1024px-2*20px)/3=328 */
+.products > li {
+  float:left;
+  height: 420px;
+  width: 350px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  background-color: rgb(226, 217, 214);
+  cursor: pointer;
+}
+.group{
+line-height: 100px;
+width: 1859px;
+cursor: pointer;
+text-align: center;
+background-color: antiquewhite;
+margin:0 auto;
+cursor: pointer;
+}

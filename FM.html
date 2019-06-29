@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>豆瓣FM</title>
+  <link rel="stylesheet" href="./css/FM.css">
+    <link rel="shortcut icon" href="https://img3.doubanio.com/f/fm/55cc7ebd1777d5101a82d7d6ce47ffc5e114131d/pics/fm/san_favicon.ico" type="image/x-icon">
+    <!-- COLLECTED CSS -->
+    <style>
+    </style>
+  </head>
+  <body>
+    <!--app容器-->
+      <div id="app">
+        <!--顶部信息-->
+        <div class="app_nav" " >
+          <div class="inner" >
+            <div class="logo" >
+              <img src="./image/FM/logo.png" "" 
+              style="height: 50px ; width: 110px;">
+            </div>
+            <ul class="feedback">
+               <span>下载豆瓣FM APP</span>
+               <span>我要反馈</span>
+            </ul>
+            
+            <div class="other">
+                <span>登录</span>
+                <span>注册</span>
+              </div>
+          </div>
+        </div>
+        <!--播放器-->
+        <div class="player_wrapper" >
+          <div style="background-color: rgba(250, 250, 250, 0.93); position: static; width: 100%; height: 100%;">
+
+          
+          <div class="left">
+              <div class="scan" >
+                  <div>
+                    <img src="./image/FM/二维码.png" alt="alt="FM APP" width="90" height="90">
+                    <div class="info">下载豆瓣FM APP</div>
+                    <div class="info">让好音乐继续</div>  
+                  </div>
+                </div>
+          </div>
+          <div class="middle" >
+            <div style="position: absolute; bottom: 40px; height: 0px; line-height: 0px;">
+              <div>
+              <div class="MHz" >
+                <img src="./image/FM/豆瓣精选.png" style="width:150px;height: 40px;">
+              </div>
+            </div>
+             <img src="./image/FM/播放器.png" style="widows: 200px;height: 200px;">
+            
+            <div style="position: absolute; bottom: 10px; height: 13px; line-height: 13px; 
+            font-size: 11px; font-weight: 400; color: rgb(155, 155, 155); width: 100%;">
+            
+            </div>
+            
+
+          </div>
+        </div>
+        <div class="right" style="width: 240px; height: 240px; top: 50%; margin-top: -90px;
+         position: absolute; left: 50%; margin-left: 255px; transform: scale(1); opacity: 1;">
+         <div class="playing-cover"style="width: 240px; height: 240px; opacity: 1; border-radius: 50%;">
+   <img src="./image/FM/专辑封面.jpg" style="width: 210px; height: 210px; opacity: 1; border-radius: 50%;">
+        
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+   <!--探索功能-->
+    <div class="explore" style="margin-top: 0px;">
+      <div class="section-switcher">
+        <div class="section-header">
+          <ul class="container">
+               <li class="channel">
+                 <img src="./image/FM/channel.png" alt="">
+                </li>
+                <li class="list">
+                  <img src="./image/FM/list.png" alt="">
+                </li>
+                <li class="mine">
+                  <img src="./image/FM/mine.png" alt="">
+                </li>
+                <li class="search">
+                  <img src="./image/FM/search.png" alt="">
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container" style="width: 1024px;">
+        <div class="specialchannel" style="margin:10px 0px 10px">
+          <li class="my">
+            <div class="p1" style="height: 50px;width: 50px; border-radius: 50%;display: inline-block;">
+              <img src="./image/FM/我的私人兆赫.png" width="60px;height:50px;">
+            </div>
+            <div class="p2">
+            <a href="" class="my1" >我的私人兆赫</a>
+            <p class="p1" style="color: #9b9b9b;font-size: 12px">豆瓣FM会根据你的喜好来推荐歌曲，让你与喜欢的音乐不期而遇</p>
+            <div class="open">
+              <a href="" class="go">去开启</a>
+            </div>
+          </div>
+        </li>
+        <li class="doubanjx">
+            <div class="p1" style="height: 50px;width: 50px; border-radius: 50%;display: inline-block;">
+              <img src="./image/FM/my2.png" width="60px;height:50px;">
+            </div>
+            <div class="d2">
+            <a href="" class="my1" >豆瓣精选兆赫</a>
+            <p class="p1" style="color: #9b9b9b;font-size: 12px">汇聚各种音乐风格的精选兆赫，从这里开始音乐漫游吧</p>
+
+          </div>
+        </li>
+          <li></li>
+        
+        
+        
+         
+        </div>
+        
+        <!--分类-->
+        <div class="channels-block" style="text-align: center;
+        margin-bottom: 40px;">
+        <h3 class="title" style="position: relative;">
+          <span>从艺术家出发</span>
+          <span style="margin-left: 6px;">
+            <img src="./image/FM/h3.png" style="width: 23px;height: 23px;margin-top: 8px">
+          </span>
+          </h3>
+          <ul>
+              <li class="channel channel-rounded">
+                  <div class="cover">
+                    <img src="./image/FM/图1.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                  </div>
+                  <div>
+                    <a href="" class="link">陈淑桦 系</a>
+                  <p class="subtitle">陈淑桦 及其相似艺术家们</p>
+                </div>
+                </li>
+                <li class="channel channel-rounded">
+                    <div class="cover">
+                      <img src="./image/FM/图2.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                    </div>
+                    <div>
+                      <a href="" class="link">Nelly 系</a>
+                    <p class="subtitle">Nelly 及其相似艺术家们</p>
+                  </div>
+                </li>
+                <li class="channel channel-rounded">
+                      <div class="cover">
+                        <img src="./image/FM/图3.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                      </div>
+                      <div>
+                        <a href="" class="link">Oasis 系</a>
+                      <p class="subtitle">Oasis 及其相似艺术家们</p>
+                    </div>
+                </li>
+                <li class="channel channel-rounded">
+                        <div class="cover">
+                          <img src="./image/FM/图4.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                        </div>
+                        <div>
+                          <a href="" class="link">水木年华 系</a>
+                        <p class="subtitle">水木年华 及其相似艺术家们</p>
+                      </div>
+                </li>
+                <li class="channel channel-rounded">
+                          <div class="cover">
+                            <img src="./image/FM/图5.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                          </div>
+                          <div>
+                            <a href="" class="link">信乐团 系</a>
+                          <p class="subtitle">信乐团 及其相似艺术家们</p>
+                        </div>
+                </li>
+                <li class="channel channel-rounded">
+                            <div class="cover">
+                              <img src="./image/FM/图6.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                            </div>
+                            <div>
+                              <a href="" class="link">彭佳慧 系</a>
+                            <p class="subtitle">彭佳慧 及其相似艺术家们</p>
+                          </div>
+                </li>
+                <li class="channel channel-rounded">
+                              <div class="cover">
+                                <img src="./image/FM/图7.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                              </div>
+                              <div>
+                                <a href="" class="link">Daniel Powter 系</a>
+                              <p class="subtitle">Daniel Powter 及其相似艺术家们</p>
+                            </div>
+                </li>
+                <li class="channel channel-rounded">
+                                <div class="cover">
+                                  <img src="./image/FM/图8.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                                </div>
+                                <div>
+                                  <a href="" class="link">Jessie J 系</a>
+                                <p class="subtitle">Jessie J 及其相似艺术家们</p>
+                              </div>
+                </li>
+                <li class="channel channel-rounded">
+                                  <div class="cover">
+                                    <img src="./image/FM/图9.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                                  </div>
+                                  <div>
+                                    <a href="" class="link">Enya 系</a>
+                                  <p class="subtitle">Enya 及其相似艺术家们</p>
+                                </div>
+                </li>
+                <li class="channel channel-rounded">
+                                    <div class="cover">
+                                      <img src="./image/FM/图10.png" style='height: 108px; width: 108px;  border-radius: 50%; display: inline-block;'>
+                                    </div>
+                                    <div>
+                                      <a href="" class="link">Damien Rice 系</a>
+                                    <p class="subtitle">Damien Rice 及其相似艺术家们</p>
+                                  </div>
+                </li>
+          </ul>
+          <div class="other">
+            <button class="button button-more">加载更多兆赫</button>
+          </div>
+
+
+
+        </div>
+        <div class="channels-block text-channels">
+          <h3>心情 / 场景</h3>
+          <ul>
+            <li class="channel channel-text"> 
+              <div class="title">工作学习
+                <span class="mhz">MHz</span>
+              </div>  
+            </li>
+            <li class="channel channel-text">
+              <div class="title">户外
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">休息
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">亢奋
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">舒缓
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">Easy
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">咖啡
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">运动
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="channels-block text-channels">
+          <h3>语言 / 年代</h3>
+          <ul>
+            <li class="channel channel-text"> 
+              <div class="title">华语
+                <span class="mhz">MHz</span>
+              </div>  
+            </li>
+            <li class="channel channel-text">
+              <div class="title">欧美
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">七零
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">八零
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">九零
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">粤语
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">日语
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">韩语
+                <span class="mhz">MHz</span>
+              </div>
+            </li><li class="channel channel-text">
+              <div class="title">法语
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">新歌
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="channels-block text-channels">
+          <h3>风格 / 流派</h3>
+          <ul>
+            <li class="channel channel-text"> 
+              <div class="title">流行
+                <span class="mhz">MHz</span>
+              </div>  
+            </li>
+            <li class="channel channel-text">
+              <div class="title">摇滚
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">民谣
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">轻音乐
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">电影原声
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">爵士
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">电子
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">说唱
+                <span class="mhz">MHz</span>
+              </div>
+            </li><li class="channel channel-text">
+              <div class="title">R&B
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">古典
+                <span class="mhz">MHz</span>
+              </div>
+            </li><li class="channel channel-text">
+              <div class="title">动漫
+                <span class="mhz">MHz</span>
+              </div>
+            </li><li class="channel channel-text">
+              <div class="title">世界音乐
+                <span class="mhz">MHz</span>
+              </div>
+            </li><li class="channel channel-text">
+              <div class="title">布鲁斯
+                <span class="mhz">MHz</span>
+              </div>
+            </li><li class="channel channel-text">
+              <div class="title">拉丁
+                <span class="mhz">MHz</span>
+              </div>
+            </li><li class="channel channel-text">
+              <div class="title">雷鬼
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+            <li class="channel channel-text">
+              <div class="title">小清新
+                <span class="mhz">MHz</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="channels-block text-channels">
+          <h3>品牌兆赫</h3>
+          <ul>
+            <li class="channel channel-text"> 
+              <div class="title">天猫理想生活
+                <span class="mhz">MHz</span>
+              </div>  
+            </li>
+          </ul>
+          </div>
+        </div>
+        <!--底部-->
+        <div class="bottom">
+          <p class="bot">
+            ©2019 douban
+            <a href="" class="link">京ICP备11027288号 </a>
+            网络视听许可证0110418号 京公网安备110105012274 
+            <a href="" class="link">新出发京批字第直150126号</a>
+          </p>
+          <p class="bot">
+            违法和不良信息举报 电话：17610209667 邮箱：
+            <a href="" class="link">kefu@dnvgroup.cn</a>
+          </p>
+          <p class="bot">
+            <span>
+              广告合作：
+              <a href="" class="link">adfm@douban.com</a>
+            </span>
+            <span>|</span>
+            <a href="" class="link ">FM用户手册</a>
+            <span>|</span>
+            <a href="" class="link ">新版说明</a>
+            <span>|</span>
+            <a href=""class="link ">我要反馈</a>
+            <span>|</span>
+            <a href="" class="link">豆瓣FM中心</a>
+          </p>
+        </div>
+    </div>
+  
+    
+
+  </body>
+</html>
